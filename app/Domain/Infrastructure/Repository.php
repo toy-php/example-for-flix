@@ -32,12 +32,6 @@ abstract class Repository implements RepositoryInterface
     }
 
     /**
-     * Найти агрегат
-     * @return MapperInterface
-     */
-    abstract public function find(): MapperInterface;
-
-    /**
      * Сохранить агрегат
      * @param AggregateInterface $aggregate
      * @return void
