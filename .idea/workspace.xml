@@ -2,51 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0d3df35a-1422-4e5e-a959-ead2a923686f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Application/bootstrap.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Aspects/UserCard/Contacts.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Aspects/UserCard/UserCard.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Aggregate.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/BaseObject.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Collection.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/DocBlock.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Entity.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Exceptions/Exception.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Exceptions/LogicException.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Exceptions/UnexpectedValueException.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Interfaces/AggregateInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Interfaces/BaseObjectInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Interfaces/CollectionInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Interfaces/EntityInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Interfaces/Identity.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Interfaces/MetaDataInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/MetaData.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/Subject.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Base/ValueObject.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Builders/AbstractBuilder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Builders/UserCardBuilder.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Factories/UserCardFactory.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/AbstractMapper.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Container/Container.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Container/Interfaces/ContainerInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Helpers/IdentityMap.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Helpers/PageLimit.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/InfrastructureInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/MapperInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/RepositoryInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/ServiceInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/IoC/Interfaces/IoCInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/IoC/IoC.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Middleware/Interfaces/MiddlewareInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Middleware/Middleware.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Repository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Repositories/Interfaces/UserCardRepositoryInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Repositories/UserCardRepository.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Services/Interfaces/UserCardServiceInterface.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/Domain/Services/UserCardService.php" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/composer.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.php" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Builders/AbstractBuilder.php" afterPath="$PROJECT_DIR$/app/Domain/Builders/AbstractBuilder.php" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Factories/UserCardFactory.php" afterPath="$PROJECT_DIR$/app/Domain/Factories/UserCardFactory.php" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Infrastructure/AbstractMapper.php" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/AbstractMapper.php" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/MapperInterface.php" afterPath="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/MapperInterface.php" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php" afterPath="$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Services/Interfaces/UserCardServiceInterface.php" afterPath="$PROJECT_DIR$/app/Domain/Services/Interfaces/UserCardServiceInterface.php" />
+      <change beforePath="$PROJECT_DIR$/app/Domain/Services/UserCardService.php" afterPath="$PROJECT_DIR$/app/Domain/Services/UserCardService.php" />
+      <change beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -57,12 +21,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AggregateInterface.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Domain/Base/Interfaces/AggregateInterface.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCardMapper.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <element signature="e#38#79#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserCardFactory.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Domain/Factories/UserCardFactory.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
+              <folding>
+                <element signature="e#40#81#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="560">
+                <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -86,23 +97,24 @@
         <option value="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/RepositoryInterface.php" />
         <option value="$PROJECT_DIR$/app/Domain/Infrastructure/ARMapper.php" />
         <option value="$PROJECT_DIR$/app/Domain/Infrastructure/Mapper.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Infrastructure/AbstractMapper.php" />
         <option value="$PROJECT_DIR$/app/Domain/Mappers/UserCardAbstractMapper.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Base/BaseObject.php" />
         <option value="$PROJECT_DIR$/app/Domain/Aspects/UserCard/Contacts.php" />
         <option value="$PROJECT_DIR$/app/Domain/Aspects/UserCard/UserCard.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php" />
         <option value="$PROJECT_DIR$/app/Domain/Repositories/UserCardRepository.php" />
         <option value="$PROJECT_DIR$/app/Domain/Repositories/Interfaces/UserCardRepositoryInterface.php" />
         <option value="$PROJECT_DIR$/app/Domain/Application/bootstrap.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Services/UserCardService.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Services/Interfaces/UserCardServiceInterface.php" />
         <option value="$PROJECT_DIR$/app/Domain/Builders/Interfaces/BuilderInterface.php" />
-        <option value="$PROJECT_DIR$/app/Domain/Builders/AbstractBuilder.php" />
         <option value="$PROJECT_DIR$/app/Domain/Builders/UserCardBuilder.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Services/Interfaces/UserCardServiceInterface.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Services/UserCardService.php" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/app/Domain/Base/BaseObject.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Infrastructure/AbstractMapper.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/MapperInterface.php" />
+        <option value="$PROJECT_DIR$/app/Domain/Builders/AbstractBuilder.php" />
         <option value="$PROJECT_DIR$/app/Domain/Factories/UserCardFactory.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -150,6 +162,57 @@
               <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example-for-flix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Builders" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example-for-flix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Factories" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example-for-flix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Infrastructure" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example-for-flix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Infrastructure" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example-for-flix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Mappers" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example-for-flix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Services" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="example-for-flix" type="b2602c69:ProjectViewProjectNode" />
+              <item name="example-for-flix" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Domain" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Services" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Interfaces" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -253,14 +316,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Base/Aggregate.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Base/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -335,36 +390,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/MapperInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="36" column="1" lean-forward="true" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Infrastructure/Repository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#71#112#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/InfrastructureInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Base/BaseObject.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1267">
-          <caret line="294" column="0" lean-forward="true" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -387,16 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Services/Interfaces/UserCardServiceInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="13" column="92" lean-forward="false" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="92" />
-          <folding>
-            <element signature="e#50#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Aspects/UserCard/UserCard.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="756">
@@ -410,16 +429,6 @@
         <state relative-caret-position="112">
           <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Services/UserCardService.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="e#39#80#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -447,34 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Infrastructure/AbstractMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="75" column="33" lean-forward="true" selection-start-line="75" selection-start-column="33" selection-end-line="75" selection-end-column="33" />
-          <folding>
-            <element signature="e#71#102#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-          <folding>
-            <element signature="e#38#79#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Domain/Builders/AbstractBuilder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Builders/UserCardBuilder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
@@ -485,10 +466,100 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Services/Interfaces/UserCardServiceInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="20" column="45" lean-forward="false" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+          <folding>
+            <element signature="e#50#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Services/UserCardService.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="57" column="53" lean-forward="false" selection-start-line="57" selection-start-column="53" selection-end-line="57" selection-end-column="53" />
+          <folding>
+            <element signature="e#39#80#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Base/Interfaces/AggregateInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Infrastructure/Repository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#71#112#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Infrastructure/Interfaces/MapperInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Builders/AbstractBuilder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#39#89#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Infrastructure/AbstractMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="94" column="0" lean-forward="true" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+          <folding>
+            <element signature="e#71#102#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Base/Aggregate.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Domain/Base/BaseObject.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="233" column="29" lean-forward="true" selection-start-line="233" selection-start-column="29" selection-end-line="233" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Domain/Factories/UserCardFactory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="10" column="11" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
+        <state relative-caret-position="364">
+          <caret line="26" column="44" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="44" />
           <folding>
             <element signature="e#40#81#0#PHP" expanded="true" />
           </folding>
@@ -498,19 +569,21 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="140">
-            <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <first_editor relative-caret-position="560">
+            <caret line="40" column="0" lean-forward="true" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/app/Domain/Mappers/UserCardMapper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="189">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#79#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

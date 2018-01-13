@@ -106,7 +106,7 @@ abstract class AbstractMapper implements MapperInterface
      * @return $this
      * @throws Exception
      */
-    protected function setAggregate(AggregateInterface $aggregate): MapperInterface
+    public function setAggregate(AggregateInterface $aggregate): MapperInterface
     {
         $this->checkType($aggregate);
         $aggregate->attach($this);

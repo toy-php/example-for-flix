@@ -17,6 +17,13 @@ interface MapperInterface extends \SplObserver
     public function byId(int $id): MapperInterface;
 
     /**
+     * Установить агрегат
+     * @param AggregateInterface $aggregate
+     * @return $this
+     */
+    public function setAggregate(AggregateInterface $aggregate): MapperInterface;
+
+    /**
      * Получить агрегат
      * @return AggregateInterface|null
      */

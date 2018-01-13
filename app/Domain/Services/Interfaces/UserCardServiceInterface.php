@@ -16,4 +16,7 @@ interface UserCardServiceInterface extends ServiceInterface
      */
     public function getById(int $id, callable $function = null): ?UserCard;
 
+    public function save(UserCard $userCard);
+
+    public function remove(UserCard $userCard);
 }

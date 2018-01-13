@@ -3,15 +3,16 @@
 namespace app\Domain\Builders;
 
 use app\Domain\Base\Interfaces\AggregateInterface;
+use app\Domain\Infrastructure\Interfaces\MapperInterface;
 
 abstract class AbstractBuilder
 {
 
-    protected $aggregate;
+    protected $mapper;
 
-    public function __construct(AggregateInterface $aggregate)
+    public function __construct(MapperInterface $mapper)
     {
-        $this->setAggregate($aggregate);
+        $this->mapper = $mapper;
     }
 
     /**
@@ -21,7 +22,7 @@ abstract class AbstractBuilder
      */
     protected function setAggregate(AggregateInterface $aggregate): AbstractBuilder
     {
-        $this->aggregate = $aggregate->withCleanState();
+        $this->mapper->setAggregate($aggregate);
         return $this;
     }
 
@@ -31,6 +32,6 @@ abstract class AbstractBuilder
      */
     public function getAggregate(): AggregateInterface
     {
-        return $this->aggregate;
+        return $this->mapper->getAggregate();
     }
 }

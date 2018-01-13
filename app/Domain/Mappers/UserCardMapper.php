@@ -32,6 +32,7 @@ class UserCardMapper extends AbstractMapper
         /*
          * Тут происходит сохранение агрегата
          */
+        echo  'Saved';
     }
 
     /**
@@ -44,6 +45,7 @@ class UserCardMapper extends AbstractMapper
         /*
          * Тут происходит сохранение агрегата
          */
+        echo 'Removed';
     }
 
     /**

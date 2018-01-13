@@ -16,12 +16,13 @@ $userCardService = $c[\app\Domain\Services\Interfaces\UserCardServiceInterface::
 /*
  * Получаем существующий агрегат
  */
-$userCard = $userCardService->getById(1, function (\app\Domain\Mappers\UserCardMapper $mapper){
+$userCard = $userCardService->getById(1, function (\app\Domain\Mappers\UserCardMapper $mapper) {
     return $mapper->withContacts();
 });
 
 var_dump($userCard->contacts->email);
 
+echo '<br>';
 
 /*
  * Создаем новый агрегат
@@ -33,3 +34,32 @@ $userCard = \app\Domain\Factories\UserCardFactory::create('baz', 'secret')
     ->getAggregate();
 
 var_dump($userCard->contacts->email);
+
+echo '<br>';
+/*
+ * Сохраняем не измененный агрегат
+ * Не произойдет вызова метода сохранения
+ */
+
+$userCardService->save($userCard);
+
+echo 'Тут не было сохранения';
+
+
+
+$userCard = $userCard->withLogin('test');
+echo '<br>';
+
+/*
+ * Сохраняем измененный агрегат
+ * Теперь произойдет вызов метода сохранения
+ */
+
+$userCardService->save($userCard);
+
+echo '<br>';
+
+/*
+ * Удаляем агрегат
+ */
+$userCardService->remove($userCard);

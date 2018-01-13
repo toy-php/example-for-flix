@@ -47,4 +47,14 @@ class UserCardService implements UserCardServiceInterface
             return new static($userCardRepository);
         };
     }
+
+    public function save(UserCard $userCard)
+    {
+        $this->userCardRepository->save($userCard);
+    }
+
+    public function remove(UserCard $userCard)
+    {
+        $this->userCardRepository->remove($userCard);
+    }
 }
